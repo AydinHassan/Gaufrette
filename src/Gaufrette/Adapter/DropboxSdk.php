@@ -19,7 +19,7 @@ use Dropbox\WriteMode;
  * @author Antoine Hérault <antoine.herault@gmail.com>
  * @author Leszek Prabucki <leszek.prabucki@gmail.com>
  */
-class Dropbox implements Adapter
+class DropboxSdk implements Adapter
 {
     protected $client;
 
